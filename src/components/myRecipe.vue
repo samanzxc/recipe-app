@@ -89,6 +89,7 @@ function deletMyRecipe(index){
   width: 70%;
   padding: 70px;
   display: flex;
+
   flex-direction: column;
   row-gap: 90px;
 }
@@ -198,5 +199,19 @@ form button:hover {
     position: absolute;
     top: 40%;
     left: 65em;
+}
+@media (max-width: 570px) {
+  .myRecipe__container {
+    width: 100%;
+  }
+  .recipe .recipe__title{
+    font-size: 15px;
+  }
+  .like{
+    width: 30px;
+  }
+  .recipe__text ul li{
+    font-size: 14px;
+  }
 }
 </style>

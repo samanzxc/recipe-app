@@ -101,4 +101,23 @@ function removeLike(recipeLike){
     top: 40%;
     left: 65em;
 }
+@media(max-width: 950px){
+  .title{
+    font-size: 20px;
+  }
+  .recipe .recipe__title{
+    font-size: 15px;
+  }
+  .like{
+    width: 30px;
+  }
+  .recipe__text ul li{
+    font-size: 14px;
+  }
+}
+@media (max-width: 570px) {
+  .like__container {
+    width: 100%;
+  }
+}
 </style>
